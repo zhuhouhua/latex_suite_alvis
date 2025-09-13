@@ -11,7 +11,7 @@
 
 如果使用Latex Suite途中发现有和视频内不一样的地方，则打开这个网站的“Latex Suite Settings”文件，使用我的Latex Suite的其他设置。
 
-视频里面已经聊到如何理解snippets的代码，但是没有讲代码中的“options”是什么意思。Latex Suite Snippets Meanings这个文件介绍了这部分内容。
+视频里面已经聊到如何理解snippets的代码，但是没有讲代码中的“options”是什么意思。“Latex Suite Snippets Meanings”这个文件介绍了这部分内容。
 
 
 >[!Tip]
