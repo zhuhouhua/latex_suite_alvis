@@ -1,14 +1,17 @@
 # 该Github Page的使用方法
-这个网站的文件有我的Latex Suite设置。Latex Suite的设置改变Latex Suite的使用方式（比如自动展开）。
+这个网站的文件有我的Latex Suite设置，其中一大部分是我对于自动展开（也就是snippets）的修改。
 
-## Latex Suite设置
+## Latex Suite设置的说明
+我修改了部分Latex Suite默认的设置是因为我认为它的自动展开不是最好的方案。经过长期的使用，我认为自动展开必须满足“一致性”。也就是说从长期来看，一致性让自动展开更容易被记住。因此，我删除了一些看似更简洁但实际上不好用的自动展开，比如用a/b来写出$\frac{a}{b}$，而保留了//a[Tab]b[Tab]来写出这个内容；这是因为这个自动展开在所有情形下都是一致的（诸位在使用一段时间之后就会发现这点）。我还确保了上标和下标（比如$a^{n}, a_{n}$），以及其他的一些自动展开的一致性。
+
+并且，很多Latex Suite的自动展开在组合起来的时候有令人烦躁的错误。这也是很少人真正使用Obsidian来长期打数学公式的原因，尽管Obsidian是多么的方便。我花了很多时间尽力修改了每一处错误，才能达到现在长期可用的效果。
+
+## Latex Suite设置的使用指南
 首先，找到Latex Suite的设置，删除Snippets框内全部内容（在这之前，做好备份）。之后打开这个网站的“Latex Suite Snippets”文件，复制其中*所有内容*，并粘贴到你的Snippets框内。设置完成。
 
 如果使用Latex Suite途中发现有和视频内不一样的地方，则打开这个网站的“Latex Suite Settings”文件，使用我的Latex Suite的其他设置。
 
-## CSS设置
-我的CSS文件后期可能公布。
-在Obsidian中，打开设置，打开外观内的“打开代码片段文件夹”。复制这个网站的CSS文件到该文件夹内，然后在Obsidian中的设置-外观-CSS代码片段内打开该CSS文件的开关。
+视频里面已经聊到如何理解snippets的代码，但是没有讲代码中的“options”是什么意思。Latex Suite Snippets Meanings这个文件介绍了这部分内容。
 
 
 >[!Tip]
